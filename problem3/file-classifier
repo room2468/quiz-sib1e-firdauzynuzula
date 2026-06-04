@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/env bash
 
 # HINT: You can test the result of this script using the following command:
 # printf "install.sh\nbackup.sh\nsystem.log\nnginx.conf\nreadme.txt\n" | ./file-classifier
