@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 
 # HINT: You can test the result of this script using the following command:
 # printf "install.sh\nbackup.sh\nsystem.log\nnginx.conf\nreadme.txt\n" | ./file-classifier
@@ -10,7 +10,7 @@ logs=0
 configs=0
 others=0
 
-while IFS= read -r filename; do
+while IFS= read -r dir; do
     # Step 1: Check the file extension using a case statement.
     #   Use: case "$filename" in
     #
@@ -38,7 +38,7 @@ while IFS= read -r filename; do
 
     # TODO: Replace this line with your case statement
 
-	case "$filename" in 
+	case "$dir" in 
 	*.sh)
 		((scripts++))
 		;;
