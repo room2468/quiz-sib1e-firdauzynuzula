@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 
 # HINT: You can test the result of this script using the following command:
 # printf "alice 1200\nbob 450\ncharlie 2800\n" | ./disk-reporter
