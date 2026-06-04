@@ -54,7 +54,8 @@ while IFS= read -r filename; do
 	esac
 done
 
-echo "$scripts"
-echo "$logs"
-echo "$configs"
-echo "$others"
+
+echo "Scripts (.sh): $scripts"
+echo "Logs (.log): $logs"
+echo "Configs (.conf): $configs"
+echo "Others: $others"
